@@ -1,0 +1,22 @@
+.new-video-banner {
+    margin: 0;
+    height: 181px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.new-video-banner > h1 {
+    margin: 0;
+    font-size: 40px;
+    font-weight: 900;
+}
+
+.new-video-banner > p {
+    margin: 0;
+    font-size: 15px;
+    font-weight: 400;
+}
