@@ -23,6 +23,12 @@
 }
 
 .banner-content {
+    width: 100%;
+    height: 350px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 10px;
     z-index: 1;
 }
 
@@ -37,6 +43,17 @@
     font-weight: 800;
 }
 
+.banner-description {
+    width: 400px;
+}
+
+.banner-image {
+    width: 60%;
+    height: 70%;
+}
+
+
+
 @media (max-width: 1024px) {
     .banner-title {
         height: 65px;
@@ -46,7 +63,7 @@
     }
 }
 
-@media (max-width: 430px) {
+@media (max-width: 750px) {
     .banner-section {
         display: none;
     }
