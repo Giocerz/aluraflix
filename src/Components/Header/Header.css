@@ -39,7 +39,8 @@
     transition: all 300ms ease-in;
 }
 
-.home-btn {
+.select-btn {
+    color: #2271D1;
     border-color: #6BD1FF;
     box-shadow: inset 0px 0px 12px 4px #2271D1;
 }
