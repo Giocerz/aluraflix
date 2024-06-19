@@ -34,6 +34,7 @@ function VideoCard({ setReloadSection, videoData, color = '#FFBA05' }) {
                         <img
                             className='video-card-image'
                             src={videoData?.image}
+                            loading='lazy'
                         />
                     </div>
                 </a>

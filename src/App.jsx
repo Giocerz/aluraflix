@@ -1,7 +1,5 @@
 import { Route, Routes } from 'react-router-dom'
 import './App.css'
-import Banner from './Components/Banner/Banner'
-import CategorySection from './Components/Category/CategorySection'
 import Footer from './Components/Footer/Footer'
 import Header from './Components/Header/Header'
 import HomePage from './Pages/HomePage/HomePage'

@@ -13,11 +13,18 @@
     height: 215px;
     position: relative;
     --box-shadow-color: #6BD1FF;
+    overflow: hidden;
 }
 
 .video-card-image {
     width: 100%;
     height: 100%;
+    transition: all 300ms ease;
+    z-index: 1;
+}
+
+.video-card > a:hover .video-card-image {
+    transform: scale(1.1);
 }
 
 .image-container::before {
@@ -27,6 +34,7 @@
     position: absolute;
     box-shadow: inset 0px 0px 24px var(--box-shadow-color);
     border-bottom: 3px solid var(--box-shadow-color);
+    z-index: 2;
 }
 
 .video-card-actions {

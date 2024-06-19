@@ -36,11 +36,16 @@
     border: 3px solid white;
     border-radius: 10px;
     cursor: pointer;
+    transition: all 300ms ease-in;
 }
 
 .home-btn {
     border-color: #6BD1FF;
     box-shadow: inset 0px 0px 12px 4px #2271D1;
+}
+
+.header-btn:hover {
+    transform: scale(1.1);
 }
 
 .mobile-header {

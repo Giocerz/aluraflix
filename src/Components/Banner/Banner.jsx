@@ -15,7 +15,9 @@ function Banner() {
                         en la formación React.
                     </p>
                 </div>
-                <img className='banner-image' src={playerImage}/>
+                <a href='https://www.youtube.com/watch?v=ov7vA5HFe6w&ab_channel=AluraLatam' target='_blank'>
+                    <img className='banner-image' src={playerImage} />
+                </a>
             </div>
         </section>
     );
